@@ -1,0 +1,35 @@
+{
+  "name": "dev-society",
+  "version": "1.0.0",
+  "description": "this is a social media platform for aspiring developers and new comers to world of web dev",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start",
+    "start:dev": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navansami/dev-society.git"
+  },
+  "author": "Navan Sami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navansami/dev-society/issues"
+  },
+  "homepage": "https://github.com/navansami/dev-society#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.7.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1"
+  }
+}
